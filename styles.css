@@ -1,11 +1,138 @@
 /* GLOBAL STYLES */
+html
+{
+    box-sizing: border-box; /* includes padding and border in total width and height */
+}
+
+*,*:before, *:after
+{
+    box-sizing: inherit;
+}
+
 body
 {
     font-family: "Lato", sans-serif;
     color: black;
+    background: white;
 }
 
 header
 {
     background-color: #87ABB1;
+    padding: 20px 6%; /* top and bottom, left and right*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* NAV BAR */
+nav li
+{
+    list-style: none;
+    padding-left: 0px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav ul
+{
+    display: flex;
+    justify-content: center;
+    gap: 91px;
+}
+
+.nav-link
+{
+    text-decoration: none;
+    color: #373737;
+}
+
+/* FONTS */
+
+h1
+{
+    font-family:"Merriweather", serif;
+    font-size: 64px;
+    line-height: 80%;
+    font-weight: 700;
+    letter-spacing: -1%;
+}
+
+.h1-hero
+{
+    margin-top: 20%;
+}
+
+.h1-subheading
+{
+    font-size: 32px;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2 
+{
+    font-family:"Merriweather", serif;
+    font-size: 48px;
+    line-height: 60%;
+    font-weight: 500;
+    letter-spacing: -1%;   
+}
+
+h3
+{
+    font-family:"Merriweather", serif;
+    font-size: 40px;
+    line-height: 50%;
+    font-weight: 400;
+    letter-spacing: -1%;
+}
+
+p
+{
+    font-size: 24px;
+    line-height: 30%;
+    font-weight: 400;
+    letter-spacing: -1%;
+}
+
+/* IMAGES */
+.hero-img
+{
+    position: relative;
+    background-image: url(images/hero-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+
+/* UTILITIES */
+.text-white
+{
+    color: white;
+}
+
+
+.cadet-gray-background
+{
+    background-color: #97A3AD;
+}
+
+.card-padding
+{
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 480px) /* For smartphones */
+{
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) /* For tablets */
+{
+
 }
