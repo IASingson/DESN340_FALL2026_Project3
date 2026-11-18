@@ -48,6 +48,7 @@ footer ul
     display: flex;
     justify-content: center;
     gap: 24px;
+    padding-left: 0;
 }
 
 /* NAV BAR */
@@ -133,6 +134,9 @@ p
     width: 40px;
     height: 40px;
 }
+
+
+.footer
 /* BUTTON */
 .button
 {
@@ -155,6 +159,7 @@ p
 {
     background-color: #87ABB1;
     color: black;
+    padding: 16px 48px;
 }
 
 .button-secondary:hover
@@ -168,21 +173,29 @@ p
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size: 24px;
+    gap: 24px 6px;
 }
 
-select, input
+.newsletters, .input-text
 {
-    background-color: white;
-    font-family: "Lato", sans-serif;
-    font-weight: bold;
-    padding: 16px 8px;
+    width: 100%;
+    font-size: 24px;
+    font-family: "Lato", sans-serif;    
+    padding: 10px 0 10px 0;
 }
 
+.newsletters
+{
+    font-weight: 700;
+    background-color: white;
+}
 .form-submit
 {
     grid-column: 2/3;
-    justify-self: start;
+    justify-self: end;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 

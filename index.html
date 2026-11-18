@@ -17,7 +17,7 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
     </head>
     
     <!-- BODY: Viewable content -->
@@ -114,19 +114,19 @@
                     <!-- Newsletter signup form: need to fix--> 
                     <form class="newsletter-form">
                         <div class="field">
-                            <select name="newsletters" id="newsletter-select" class="text-center">
-                                <option value="">-Select a Newsletter-</option>
+                            <select id="newsletters" name="newsletter" class="newsletters text-center">
+                                <option value="">- Select a Newsletter -</option>
                                 <option value="viva-clayworks-newsletter">Viva Clayworks Newsletter</option>
                                 <option value="workshops">Workshops</option>
-                                <option value="customer-list">Customers List</option>
+                                <option value="customer-list">Customer List</option>
                                 <option value="children-and-teen-program">Children and Teen Program</option>
                                 <option value="student-email-list">Student Email List</option>
                             </select>
                         </div>
                         <div class="field">
-                            <input type="text" id="email" class="input-text" placeholder="Enter your email">
+                            <input type="text" id="email" class="input-text text-center" placeholder="Enter your email">
                         </div>
-                        <input type="submit" class="button-secondary form-submit" value="Submit">
+                        <input type="submit" class="button-secondary form-submit" value="Sign Up">
                     </form>
                 </div>
             </section>
@@ -135,34 +135,29 @@
         <!-- FOOTER: Logo, navigation bar, socials, and copy right statement. The same for every page-->
         <footer>
             <div class="container">
+                <!-- Row one: logo -->
                 <div class="row row-justify-center">
-                    <div class="col col-lg-2">
-                        <a href="index.html#home"><img src="images/vivaclayworks-logo.svg" class="logo"></a>
-                    </div>
+                    <a href="index.html#home"><img src="images/vivaclayworks-logo.svg" class="logo"></a>
+                </div>
+                <!-- Row two: navigation links -->
+                <div class="row row-justify-center">
+                    <ul>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="little-otter.html" class="nav-link">Books</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
                 </div>
 
+                <!-- Row three: social media icons -->
                 <div class="row row-justify-center">
-                    <div class="col col-lg-2">
-                        <ul>
-                            <li><a href="about.html" class="nav-link">About</a></li>
-                            <li><a href="services.html" class="nav-link">Services</a></li>
-                            <li><a href="little-otter.html" class="nav-link">Books</a></li>
-                            <li><a href="contact.html" class="nav-link">Contact</a></li>
-                        </ul>
-                    </div>
+                    <a><img src="images/facebook-icon.svg" class="footer-icon fb-icon"></a>
+                    <a><img src="images/instagram-icon.svg" class="footer-icon insta-icon"></a>
                 </div>
 
-                <div class="row row-justify center">
-                    <div clas="col col-lg-2">
-                        <a><img src="images/facebook-icon.svg" class="footer-icon"></a>
-                        <a><img src="images/instagram-icon.svg" class="footer-icon"></a>
-                    </div>
-                </div>
-
+                <!-- Row four: copy right -->
                 <div class="row row-justify-center">
-                    <div class="col col-lg-3">
-                        <p>&copy; 2026 / All Rights Reserved</p>
-                    </div>
+                    <p class=text-center>&copy; 2026 / All Rights Reserved</p>
                 </div>
 
             </div>
