@@ -131,6 +131,10 @@
     padding: 0px;
 }
 
+.breadcrumbs-padding
+{
+    padding: 20px 0px;
+}
 /* UTILITIES */
 .img-full
 {
@@ -146,6 +150,11 @@
 .text-right
 {
     text-align: right;
+}
+
+.text-left
+{
+    text-align: left;
 }
 
 

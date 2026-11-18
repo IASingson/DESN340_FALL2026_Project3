@@ -19,7 +19,7 @@ body
 header
 {
     background-color: #87ABB1;
-    padding: 20px 6%; /* top and bottom, left and right*/
+    padding: 10px 6%; /* top and bottom, left and right*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,7 +60,7 @@ nav li
     font-weight: 700;
 }
 
-nav ul
+nav ul  
 {
     display: flex;
     justify-content: center;
@@ -74,7 +74,6 @@ nav ul
 }
 
 /* FONTS */
-
 h1
 {
     font-family:"Merriweather", serif;
@@ -118,7 +117,7 @@ p
     letter-spacing: -1%;
 }
 
-/* IMAGES */
+/* IMAGES AND ICONS */
 .hero-img
 {
     position: relative;
@@ -135,6 +134,10 @@ p
     height: 40px;
 }
 
+.about-hero-img
+{
+    background-image: url(images/logo-on-mural.jpg);
+}
 
 .footer
 /* BUTTON */
@@ -168,7 +171,7 @@ p
     color: white;
 }
 
-/* NEWSLETTER: need to fix*/
+/* NEWSLETTER: need to match the mockup*/
 .newsletter-form
 {
     display: grid;
@@ -225,7 +228,33 @@ p
 
 }
 
+nav ol  
+{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
 
+.breadcrumb-highlighted
+{
+    color: #C66A3B;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.breadcrumb-not-highlighted
+{
+    color: #C48C64;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.breadcrumbs li + li::before
+{
+    content: ">";
+    color: #C48C64;
+    margin-right: 10px;
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 480px) /* For smartphones */

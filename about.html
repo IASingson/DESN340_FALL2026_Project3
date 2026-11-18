@@ -2,13 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8"></meta>
-        <meta name="viewport" content="width=device-width", initial-scale="1"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <title>Viva Clayworks | Homepage</title>
 
         <!-- STYLE SHEETS: Normal, layout, styles-->
     	<link rel="stylesheet" href="normalize.css"> <!-- Normalize browser default settings -->
 	    <link rel="stylesheet" href="layout.css"> <!-- This controls our stucture and layout -->
-	    <link rel="stylesheet" href="style.css"> <!-- This is where we add all the styling to the elements of the pages -->
+	    <link rel="stylesheet" href="styles.css"> <!-- This is where we add all the styling to the elements of the pages -->
 
         <!-- FONTS: Merriweathear, Lato -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,30 +25,87 @@
         <!-- HEADER section: Navigatiom bar, the same for every page -->
         <header>
             <!-- LOGO -->
-            <img src="images/vivaclayworks-logo.svg" alt="">
+            <a href="index.html#home"><img src="images/vivaclayworks-logo.svg" class="logo" alt=""></a>
 
             <!-- NAVIGATION -->
             <nav>
                 <ul>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Books</li>
-                    <li>Contact</li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="little-otter.html" class="nav-link">Books</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
 
             <!-- HAMBURGER BAR: For tablet and mobile screens -->
-
         </header>
 
         <!-- MAIN: Content between the header and footer -->
         <main>
+            <!-- BREAD CRUMBS section -->
+            <section class="section-padding breadcrumbs-padding">
+                <div class="container-full"> 
+                    <div class="row">
+                        <div class="col col-lg-3">
+                            <nav class="breadcrumbs">
+                                <ol>
+                                    <li><a href="index.html" class="nav-link breadcrumb-not-highlighted">Home</a></li>
+                                    <li><a href="about.html" class="nav-link breadcrumb-highlighted">About Us</a></li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <!-- ABOUT US header section-->
+            <section class="section-padding cadet-gray-background">
+                <div class="container">
+                    <div class="row">
+                        <h1>About Us</h1>
+                    </div>
+                </div>
+            </section>
+            <!-- HERO section -->
+            <section class="section-padding">
+                <div class="container-full">
+                    <div class="row row-justify-center row-align-center">
+                        <div class="hero-img about-hero-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- DESCRIPTION section -->
         </main>
 
         <!-- FOOTER: Logo, navigation bar, socials, and copy right statement. The same for every page-->
         <footer>
+            <div class="container">
+                <!-- Row one: logo -->
+                <div class="row row-justify-center">
+                    <a href="index.html#home"><img src="images/vivaclayworks-logo.svg" class="logo"></a>
+                </div>
+                <!-- Row two: navigation links -->
+                <div class="row row-justify-center">
+                    <ul>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="little-otter.html" class="nav-link">Books</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
 
+                <!-- Row three: social media icons -->
+                <div class="row row-justify-center">
+                    <a><img src="images/facebook-icon.svg" class="footer-icon fb-icon"></a>
+                    <a><img src="images/instagram-icon.svg" class="footer-icon insta-icon"></a>
+                </div>
+
+                <!-- Row four: copy right -->
+                <div class="row row-justify-center">
+                    <p class=text-center>&copy; 2026 / All Rights Reserved</p>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
