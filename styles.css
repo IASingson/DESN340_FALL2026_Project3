@@ -25,6 +25,31 @@ header
     justify-content: space-between;
 }
 
+footer
+{
+    background-color:#87ABB1;
+}
+
+footer p
+{
+    font-size: 16px;
+}
+
+footer li
+{
+    list-style: none;
+    padding-left: 0px;
+    font-size: 16px;
+    font-weight: 700px;
+}
+
+footer ul
+{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
 /* NAV BAR */
 nav li
 {
@@ -101,6 +126,12 @@ p
     background-repeat: no-repeat;
     height: 700px;
     width: 100%;
+}
+
+.footer-icon
+{
+    width: 40px;
+    height: 40px;
 }
 /* BUTTON */
 .button
@@ -180,6 +211,7 @@ select, input
     margin: 100px 50px 0 50px; /* top, right, bottom, left*/
 
 }
+
 
 
 /* MEDIA QUERIES */
