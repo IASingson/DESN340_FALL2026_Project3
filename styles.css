@@ -75,7 +75,7 @@ nav ul
     color: #373737;
 }
 
-.nav-link:hover
+.nav-link:hover, .nav-link-current
 {
     text-decoration: underline;
     text-underline-offset: 6px;
@@ -187,6 +187,14 @@ p
     border-radius: 10px;
 }
 
+.button-2 /* only slightly different variation of first button*/
+{
+    padding: 40px 100px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
 .button:hover
 {
     background-color: #87ABB1;
@@ -237,6 +245,34 @@ p
 
 
 /* UTILITIES */
+.text-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 94%;
+    height: 100%;   
+}
+
+.text-wrapper-2
+{
+    width: 100%;
+    height: 100%;
+    gap: 64px;
+}
+
+.paragraph-container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.paragraph-container-2
+{
+    width: 80%;
+    margin: 20px auto;
+}
+
 .text-white
 {
     color: white;
@@ -256,6 +292,11 @@ p
 .terracota-background
 {
     background-color: #C48C64;
+}
+
+.white-background
+{
+    background-color: #FFFFFF;
 }
 
 .col-padding /* For home page, second section*/
