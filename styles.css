@@ -14,6 +14,7 @@ body
     font-family: "Lato", sans-serif;
     color: black;
     background: white;
+    font-size: 24px;
 }
 
 header
@@ -71,6 +72,13 @@ nav ul
 {
     text-decoration: none;
     color: #373737;
+}
+
+.nav-link:hover
+{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    color:#FFFFFF;
 }
 
 /* FONTS */
@@ -136,7 +144,7 @@ p
     background-image: url(images/hero-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 800px;
     width: 100%;
 }
 
@@ -151,7 +159,7 @@ p
     background-image: url(images/logo-on-mural.jpg);
 }
 
-.footer
+
 /* BUTTON */
 .button
 {
@@ -162,9 +170,8 @@ p
     text-decoration: none;
     font-weight: bold;
     border-radius: 10px;
-
-    
 }
+
 .button:hover
 {
     background-color: #87ABB1;
@@ -252,6 +259,7 @@ nav ol
     color: #C66A3B;
     font-weight: 700;
     text-decoration: underline;
+    text-underline-offset: 6px;
 }
 
 .breadcrumb-not-highlighted
