@@ -39,6 +39,11 @@
     justify-content: space-between;
 }
 
+.row-justify-around
+{
+    justify-content: space-around;
+}
+
  
 .row-align-end /* align is up and down */
 {
@@ -128,8 +133,9 @@
 
 .no-section-padding
 {
-    padding: 0px;
+    padding-top: 0px;
 }
+
 
 .breadcrumbs-padding
 {

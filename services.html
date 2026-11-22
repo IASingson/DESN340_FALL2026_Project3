@@ -25,15 +25,15 @@
         <!-- HEADER section: Navigatiom bar, the same for every page -->
         <header>
             <!-- LOGO -->
-            <img src="images/vivaclayworks-logo.svg" alt="">
+            <a href="index.html#home"><img src="images/vivaclayworks-logo.svg" class="logo" alt=""></a>
 
             <!-- NAVIGATION -->
             <nav>
                 <ul>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Books</li>
-                    <li>Contact</li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="little-otter.html" class="nav-link">Books</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
 
@@ -43,12 +43,255 @@
 
         <!-- MAIN: Content between the header and footer -->
         <main>
+            <!-- BREAD CRUMBS section -->
+            <section class="section-padding breadcrumbs-padding">
+                <div class="container-full"> 
+                    <!-- Row one -->
+                    <div class="row">
+                        <div class="col col-lg-3">
+                            <nav class="breadcrumbs">
+                                <ol>
+                                    <li><a href="index.html" class="nav-link breadcrumb-not-highlighted">Home</a></li>
+                                    <li><a href="services.html" class="nav-link breadcrumb-highlighted">Services</a></li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Row one end -->
+                </div>
+            </section>
 
+            <!-- ABOUT US HEADER section -->
+            <section class="section-padding cadet-gray-background">
+                <div class="container">
+                    <div class="row">
+                        <h1>Services</h1>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CLASSES CARD section -->
+            <section class="section-padding">
+                <div class="container terracota-background">
+                    <!-- Row one: Classes-six weeks header, price -->
+                    <div class="row row-justify-center">
+                        <!-- Column one: Header -->
+                        <div class="col col-lg-10">
+                            <h2>Classes - six weeks</h2>
+                        </div>
+
+                        <!-- Column two: Price-->
+                        <div class="col col-lg-2">
+                            <h2>$280</h2>
+                        </div>
+                    </div>
+                    <!--= Row one end -->
+
+                    <!-- Row two: Description and image -->
+                    <div class="row row-justify-center">
+                        <!-- Column one: Classes Description -->
+                        <div class="col col-lg-6">
+                            <p>We offer classes Monday-Saturday, two sessions a day</p>
+                            <p>Spots are filled in a first-call, first-serve basis</p>
+                            <p>$44.95 - clay, $26.95 - studio kit</p>
+                        </div>
+
+                        <!-- Column two: Image-->
+                        <div class="col col-lg-6">
+                            <div class="card-img-wrap">
+                                <img src="images/people-at-pottery-wheel.webp" class="card-img" alt="five-people-at-pottery-wheels-smiling-at-camera">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row two end -->
+                    
+                    <!-- Row three: Learn more -->
+                    <div class="row row-justify-center">
+                        <div class="col col-lg-11">
+                            <h3>Learn more</h3>
+                        </div>
+                    </div>
+                    <!-- Row three end -->
+                </div>
+            </section>
+                    
+            <!-- WORKSHOPS CARD section -->
+            <section class="section-padding">
+                <div class="container terracota-background">
+                    <!-- Row one: Workshops header, price -->
+                    <div class="row">
+                        <!-- Column one: Header -->
+                        <div class="col col-lg-9">
+                            <h2>Workshops</h2>
+                        </div>
+
+                        <!-- Column two: Price-->
+                        <div class="col col-lg-3">
+                            <h2>Prices Vary</h2>
+                        </div>
+                    </div>
+                    <!--= Row one end -->
+
+                    <!-- Row two: Description and image -->
+                    <div class="row row-justify-center">
+                        <!-- Column one: Classes Description -->
+                        <div class="col col-lg-6">
+                            <p>We like learning new things and sharing with our community!</p>
+                            <p>We host workshops featuring potters from around the world.</p>
+                            <p>Check out our upcoming workshops!</p>
+                        </div>
+
+                        <!-- Column two: image-->
+                        <div class="col col-lg-6">
+                            <div class="card-img-wrap">
+                                <img src="images/workshop-photo.jpg" class="card-img" alt="a-group-selfie-with-people-waering-aprons">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row two end -->
+                    
+                    <!-- Row three: Learn more -->
+                    <div class="row row-justify-center">
+                        <div class="col col-lg-11">
+                            <h3>Learn more</h3>
+                        </div>
+                    </div>
+                    <!-- Row three end -->
+                </div>
+            </section>
+            
+            <!-- PRIVATE GROUP EVENTS CARD section -->
+            <section class="section-padding">
+                <div class="container terracota-background">
+                    <!-- Row one: Private Group Events header, price -->
+                    <div class="row row-justify-center">
+                        <!-- Column one: Header -->
+                        <div class="col col-lg-8">
+                            <h2>Private Group Events</h2>
+                        </div>
+
+                        <!-- Column two: Price-->
+                        <div class="col col-lg-4">
+                            <h2>$75/person+ GST</h2>
+                        </div>
+                    </div>
+                    <!--= Row one end -->
+
+                    <!-- Row two: Description and image -->
+                    <div class="row row-justify-center">
+                        <!-- Column one: Classes Description -->
+                        <div class="col col-lg-6">
+                            <p>90 minute classes designed for adults.</p>
+                            <p>Hosted mostly on Saturdays and Sundays 4-6pm.</p>
+                            <p>Includes one finished piece, clay, and tools.</p>
+                        </div>
+
+                        <!-- Column two: image-->
+                        <div class="col col-lg-6">
+                            <div class="card-img-wrap">
+                                <img src="images/group-at-table.jpg" class="card-img" alt="a-group-of-people-sitting-down-at-a-table-with-art-supplies">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row two end -->
+                    
+                    <!-- Row three: Learn more -->
+                    <div class="row row-justify-center">
+                        <div class="col col-lg-11">
+                            <h3>Learn more</h3>
+                        </div>
+                    </div>
+                    <!-- Row three end -->
+                </div>
+            </section>
+            <!-- FIRING SERVICES CARD section -->
+            <section class="section-padding">
+                <div class="container terracota-background">
+                    <!-- Row one: Firing Services header, price -->
+                    <div class="row row-justify-center">
+                        <!-- Column one: Header -->
+                        <div class="col col-lg-9">
+                            <h2>Firing Services</h2>
+                        </div>
+
+                        <!-- Column two: Price-->
+                        <div class="col col-lg-3">
+                            <h2>Prices Vary</h2>
+                        </div>
+                    </div>
+                    <!--= Row one end -->
+
+                    <!-- Row two: Description and image -->
+                    <div class="row row-justify-center">
+                        <!-- Column one: Classes Description -->
+                        <div class="col col-lg-6">
+                            <p>
+                                Bring us your kiln ready pieces. 
+                                Firing costs are based on space used in the kiln when firing cone 4 and 6, 
+                                other wise pricing is based on kiln load.</p>
+                            <p>We offer several types of firing including:</p>
+                            <ul>
+                                <li>Bisque (cone 04, electric)</li>
+                                <li>Glaze (cone 6, electric)</li>
+                                <li>Lustre (cone 018, electric) speciality</li>
+                                <li>Wood firing (cone 10, wood) speciality</li>
+                                <li>Salt + Soda (cone 10, gas) speciality</li>
+                                <li>Raku (propane) speciality</li>
+                            </ul>
+                        </div>
+
+                        <!-- Column two: image-->
+                        <div class="col col-lg-6">
+                            <div class="card-img-wrap">
+                                <img src="images/flames.jpg" class="card-img" alt="flames">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row two end -->
+                    
+                    <!-- Row three: Learn more -->
+                    <div class="row row-justify-center">
+                        <div class="col col-lg-11">
+                            <h3>Learn more</h3>
+                        </div>
+                    </div>
+                    <!-- Row three end -->
+                </div>
+            </section>
         </main>
-
         <!-- FOOTER: Logo, navigation bar, socials, and copy right statement. The same for every page-->
         <footer>
+            <div class="container">
+                <!-- Row one: logo -->
+                <div class="row row-justify-center">
+                    <a href="index.html#home"><img src="images/vivaclayworks-logo.svg" class="logo"></a>
+                </div>
+                <!-- Row one end -->
+                 
+                <!-- Row two: navigation links -->
+                <div class="row row-justify-center">
+                    <ul>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="little-otter.html" class="nav-link">Books</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Row two end-->
 
+                <!-- Row three: social media icons -->
+                <div class="row row-justify-center">
+                    <a><img src="images/facebook-icon.svg" class="footer-icon fb-icon"></a>
+                    <a><img src="images/instagram-icon.svg" class="footer-icon insta-icon"></a>
+                </div>
+                <!-- Row three end -->
+
+                <!-- Row four: copy right -->
+                <div class="row row-justify-center">
+                    <p class=text-center>&copy; 2026 / All Rights Reserved</p>
+                </div>
+                <!-- Row four end-->
+            </div>
         </footer>
     </body>
 </html>

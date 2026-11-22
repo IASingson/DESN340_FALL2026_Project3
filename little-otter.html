@@ -25,15 +25,15 @@
         <!-- HEADER section: Navigatiom bar, the same for every page -->
         <header>
             <!-- LOGO -->
-            <img src="images/vivaclayworks-logo.svg" alt="">
+            <a href="index.html#home"><img src="images/vivaclayworks-logo.svg" class="logo" alt=""></a>
 
             <!-- NAVIGATION -->
             <nav>
                 <ul>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Books</li>
-                    <li>Contact</li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="little-otter.html" class="nav-link">Books</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
 
@@ -43,12 +43,65 @@
 
         <!-- MAIN: Content between the header and footer -->
         <main>
+            <!-- BREAD CRUMBS section -->
+            <section class="section-padding breadcrumbs-padding">
+                <div class="container-full"> 
+                    <div class="row">
+                        <div class="col col-lg-3">
+                            <nav class="breadcrumbs">
+                                <ol>
+                                    <li><a href="index.html" class="nav-link breadcrumb-not-highlighted">Home</a></li>
+                                    <li><a href="about.html" class="nav-link breadcrumb-highlighted">Books</a></li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <!-- ABOUT US HEADER section -->
+            <section class="section-padding cadet-gray-background">
+                <div class="container">
+                    <div class="row">
+                        <h1>Litte Otter Books</h1>
+                    </div>
+                </div>
+            </section>
         </main>
 
         <!-- FOOTER: Logo, navigation bar, socials, and copy right statement. The same for every page-->
         <footer>
+            <div class="container">
+                <!-- Row one: logo -->
+                <div class="row row-justify-center">
+                    <a href="index.html#home"><img src="images/vivaclayworks-logo.svg" class="logo"></a>
+                </div>
+                <!-- Row one end -->
+                 
+                <!-- Row two: navigation links -->
+                <div class="row row-justify-center">
+                    <ul>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="little-otter.html" class="nav-link">Books</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Row two end-->
 
+                <!-- Row three: social media icons -->
+                <div class="row row-justify-center">
+                    <a><img src="images/facebook-icon.svg" class="footer-icon fb-icon"></a>
+                    <a><img src="images/instagram-icon.svg" class="footer-icon insta-icon"></a>
+                </div>
+                <!-- Row three end -->
+
+                <!-- Row four: copy right -->
+                <div class="row row-justify-center">
+                    <p class=text-center>&copy; 2026 / All Rights Reserved</p>
+                </div>
+                <!-- Row four end-->
+            </div>
         </footer>
     </body>
 </html>

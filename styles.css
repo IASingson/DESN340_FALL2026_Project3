@@ -26,6 +26,7 @@ header
     justify-content: space-between;
 }
 
+
 footer
 {
     background-color:#87ABB1;
@@ -159,6 +160,20 @@ p
     background-image: url(images/logo-on-mural.jpg);
 }
 
+.card-img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-img-wrap
+{
+    width: 90%;
+    height: 90%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
 
 /* BUTTON */
 .button
@@ -236,6 +251,11 @@ p
 .deep-teal-background
 {
     background-color: #136284;
+}
+
+.terracota-background
+{
+    background-color: #C48C64;
 }
 
 .col-padding /* For home page, second section*/
