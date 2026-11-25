@@ -128,16 +128,18 @@ p
 
 .about-hero-text
 {
-    font-size: 40px;
-    font-style: italic;
-    font-weight: 400;
-    margin-top: 40%;
+    font-weight: 500;
+    margin-top: 34%;
+    margin-left: 10%;
+    text-shadow: 0px 4px 4px #00000040; /*x offset, y offset, blur radius, colour with opacity*/
 }
 
 #quote-author
 {
     margin-top: 0;
+    margin-left: -32%;
 }
+
 /* IMAGES AND ICONS */
 .hero-img
 {
@@ -157,7 +159,7 @@ p
 
 .about-hero-img
 {
-    background-image: url(images/logo-on-mural.jpg);
+    background-image: url(images/about-hero-img.jpg);
 }
 
 .card-img
