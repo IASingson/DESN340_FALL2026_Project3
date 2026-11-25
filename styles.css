@@ -177,30 +177,28 @@ p
 
 .homepage-card
 {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-
-}
-
-.homepage-card-img
-{
-    width: 100%;
-    aspect-ratio: 332/227;
-    border-radius: 10px;
-    overflow: hidden;
-    color: white;            
     background-image: url(images/pottery-classes.jpg);
+    width: 90%;
+    height: 60%;
+    aspect-ratio: 5/4;
+    border-radius: 10px;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 90px;
 }
 
-.homepage-card-img-2
+.homepage-card-2
 {
     background-image: url(images/workshops-card.jpg);
-
 }
 
-.homepage-card-img-2
+.homepage-card-3
 {
     background-image: url(images/firing-services-card.jpg);
 }
@@ -309,6 +307,10 @@ p
     color: white;
 }
 
+.text-bold
+{
+    font-weight: 700;
+}
 
 .cadet-gray-background
 {
