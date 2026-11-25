@@ -175,36 +175,36 @@ p
     overflow: hidden;
 }
 
-.homepage-card-wrap
+.homepage-card
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.homepage-card-img
 {
     width: 100%;
     aspect-ratio: 332/227;
     border-radius: 10px;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    color: white;
-}
-
-.homepage-card-img-1
-{
+    color: white;            
     background-image: url(images/pottery-classes.jpg);
-    width: 100%;
-    height: 100%;
-    object-fit:cover;
     background-repeat: no-repeat;
 }
 
 .homepage-card-img-2
 {
     background-image: url(images/workshops-card.jpg);
+
 }
 
-.homepage-card-img-3
+.homepage-card-img-2
 {
-    background-image: url(images/firing-services-card.jpg)
+    background-image: url(images/firing-services-card.jpg);
 }
+
 
 /* BUTTON */
 .button
